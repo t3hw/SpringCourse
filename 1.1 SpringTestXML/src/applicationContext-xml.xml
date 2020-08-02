@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+	<context:property-placeholder location="classpath:app.properties"/>
+	
+    <bean id="myLoggerConfig" class="com.luv2code.springdemo.MyLoggerConfig" init-method="initLogger">
+    	<property name="rootLoggerLevel" value="FINE" />
+    	<property name="printedLoggerLevel" value="FINE"/>
+    </bean>	
+   
+   
+    <!-- Fortune definitions -->
+    <bean id="happyFortune"
+    	class="com.luv2code.fortunes.HappyFortuneService">
+    </bean>     
+    
+    <bean id="normalFortune"
+    	class="com.luv2code.fortunes.NormalFortuneService">
+    </bean>
+    
+    <bean id="sadFortune"
+    	class="com.luv2code.fortunes.SadFortuneService">
+    </bean>
+    
+    <bean id="randomFortune"
+    	class="com.luv2code.fortunes.RandomFortune">
+    <!-- <property name="fortune" ref="happyFortune" />
+    	<property name="fortune" ref="normalFortune" />
+    	<property name="fortune" ref="sadFortune" /> -->	
+    </bean>
+     
+    
+    
+    <!-- Coach Definitions -->
+	<bean id="myTrackCoach"
+    	class="com.luv2code.springdemo.coaching.TrackCoach" 
+    	scope="prototype">
+    	<constructor-arg ref="randomFortune" />
+    </bean>	
+    
+    <bean id="myBaseballCoach"
+    	class="com.luv2code.springdemo.coaching.BaseballCoach">
+    	<constructor-arg ref="randomFortune" />
+    </bean>	
+    
+    <bean id="myCoach"
+      	  class="com.luv2code.springdemo.coaching.CricketCoach"
+      	  init-method="initStuff"
+	      destroy-method="destroyStuff">
+    	<property name="fortuneService"  ref="randomFortune" />
+    	<property name="team"  value="${foo.team}" />
+    	<property name="emailAddress"  value="${foo.email}" />
+    </bean>	
+      
+    
+
+
+</beans>
+
+
+
+
+
