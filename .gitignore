@@ -1,0 +1,39 @@
+
+1.1 SpringTestXML/.classpath
+1.1 SpringTestXML/.settings/org.eclipse.jdt.core.prefs
+1.1 SpringTestXML/bin/app.properties
+1.1 SpringTestXML/bin/applicationContext-xml.xml
+1.1 SpringTestXML/bin/com/luv2code/fortunes/FortuneService.class
+1.1 SpringTestXML/bin/com/luv2code/fortunes/HappyFortuneService.class
+1.1 SpringTestXML/bin/com/luv2code/fortunes/NormalFortuneService.class
+1.1 SpringTestXML/bin/com/luv2code/fortunes/RandomFortune.class
+1.1 SpringTestXML/bin/com/luv2code/fortunes/SadFortuneService.class
+1.1 SpringTestXML/bin/com/luv2code/springdemo/coaching/BaseballCoach.class
+1.1 SpringTestXML/bin/com/luv2code/springdemo/coaching/Coach.class
+1.1 SpringTestXML/bin/com/luv2code/springdemo/coaching/CricketCoach.class
+1.1 SpringTestXML/bin/com/luv2code/springdemo/coaching/TrackCoach.class
+1.1 SpringTestXML/bin/com/luv2code/springdemo/HelloSpringApp.class
+1.1 SpringTestXML/bin/com/luv2code/springdemo/MyApp.class
+1.1 SpringTestXML/bin/com/luv2code/springdemo/MyLoggerConfig.class
+1.2 SpringTestAnnotations/.classpath
+1.2 SpringTestAnnotations/bin/app.properties
+1.2 SpringTestAnnotations/bin/com/luv2code/springdemo/coaching/Coach.class
+1.2 SpringTestAnnotations/bin/com/luv2code/springdemo/coaching/SwimCoach.class
+1.2 SpringTestAnnotations/bin/com/luv2code/springdemo/coaching/TennisCoach.class
+1.2 SpringTestAnnotations/bin/com/luv2code/springdemo/customBeanProcessor/MyCustomBeanProcessor.class
+1.2 SpringTestAnnotations/bin/com/luv2code/springdemo/DemoConfig.class
+1.2 SpringTestAnnotations/bin/com/luv2code/springdemo/fortunes/FileFortune.class
+1.2 SpringTestAnnotations/bin/com/luv2code/springdemo/fortunes/FortuneService.class
+1.2 SpringTestAnnotations/bin/com/luv2code/springdemo/fortunes/HappyFortuneService.class
+1.2 SpringTestAnnotations/bin/com/luv2code/springdemo/fortunes/NormalFortuneService.class
+1.2 SpringTestAnnotations/bin/com/luv2code/springdemo/fortunes/RandomFortune.class
+1.2 SpringTestAnnotations/bin/com/luv2code/springdemo/fortunes/SadFortuneService.class
+1.2 SpringTestAnnotations/bin/com/luv2code/springdemo/HelloSpringApp.class
+1.2 SpringTestAnnotations/bin/com/luv2code/springdemo/logging/MyLoggerConfig.class
+1.2 SpringTestAnnotations/bin/com/luv2code/springdemo/SwimSpringApp.class
+1.2 SpringTestAnnotations/bin/log.properties
+2.1-spring-mvc-demo/.classpath
+2.1-spring-mvc-demo/.classpath
+1.2 SpringTestAnnotations/.classpath
+1.1 SpringTestXML/.settings/org.eclipse.jdt.core.prefs
+1.1 SpringTestXML/.classpath
