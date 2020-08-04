@@ -1,4 +1,4 @@
-package com.luv2code.mycoolapp;
+package main.java.com.luv2code.mycoolapp;
 
 /**
  * Hello world!

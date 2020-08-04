@@ -1,4 +1,4 @@
-package com.luv2code.mycoolapp;
+package test.java.com.luv2code.mycoolapp;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
