@@ -27,12 +27,12 @@
 			<form:option value="GER" label="Germany"/>
 			<form:option value="IND" label="India"/>
 		 -->
-		<!-- hard coded java
+		<!-- hard coded java -->
 		   <form:options items="${student.countryOptions}"/> 
-		-->
-		<!-- properties file -->
+		
+		<!-- properties file
 		   <form:options items="${countries}"/> 
-		 
+		  -->
 		 	
 		</form:select>
 		
@@ -47,12 +47,12 @@
 			PHP <form:radiobutton path="favoriteLanguage" value="PHP"/>
 			Ruby <form:radiobutton path="favoriteLanguage" value="Ruby"/>
 		-->
-		<!-- hard coded java -->
+		<!-- hard coded java
 			<form:radiobuttons path="favoriteLanguage" items="${student.favoriteLanguageOptions}"/>
-		
-		<!-- properties file 
-			<form:radiobuttons path="favoriteLanguage" items="${languages}"/>
 		-->
+		<!-- properties file --> 
+			<form:radiobuttons path="favoriteLanguage" items="${languages}"/>
+		
 		<br><br>
 		
 		Linux <form:checkbox path="operatingSystems" value="Linux"/>

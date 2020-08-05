@@ -5,6 +5,7 @@ import java.util.LinkedHashMap;
 public class Student {
 
 	private String firstName;
+
 	private String lastName;
 
 	private String country;
@@ -38,6 +39,9 @@ public class Student {
         favoriteLanguageOptions.put("Pascal", "Pascal");
 	}
 
+	
+	// Getter/Setter methods
+	
 	/**
 	 * @return the countryOptions
 	 */
