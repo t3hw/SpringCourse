@@ -32,7 +32,7 @@
 	
 	<br><br>
 		
-	<a href="backToMenu">Back to main menu</a>	
+	<a href="/2.1_spring-mvc-demo/">Back to main menu</a>	
 	
 
 </body>

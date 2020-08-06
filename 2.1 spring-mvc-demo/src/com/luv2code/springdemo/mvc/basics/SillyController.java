@@ -13,15 +13,8 @@ public class SillyController {
 		
 	}
 	
-	@RequestMapping("/processForm")
+	@RequestMapping("/processFormV3")
 	public String processForm(){
 		return "helloworld";
 	}
-	
-	
-	@RequestMapping("/backToMenu")
-	public String returnToMenu() {
-		return "main-menu";
-	}
-	
 }

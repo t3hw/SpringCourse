@@ -31,5 +31,10 @@ Operating Systems:
 	
 </ul>
 
+<br><br>
+
+
+<a href="/2.1_spring-mvc-demo/backToMenu">Back to main menu</a>	
+
 </body>
 </html>
