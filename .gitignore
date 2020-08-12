@@ -53,3 +53,7 @@ MAVENmycoolapp
 Servers
 BOOTmycoolapp
 commons-logging placeholder
+3.2 hb-01-one-to-one/.classpath
+3.2 hb-01-one-to-one/.project
+3.3 hb-03-one-to-many/.project
+3.3 hb-03-one-to-many/.classpath
