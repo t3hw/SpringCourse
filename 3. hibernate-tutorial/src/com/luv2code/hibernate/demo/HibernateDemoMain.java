@@ -12,8 +12,9 @@ public class HibernateDemoMain {
 		System.out.println("heyo");
 
 		// create session factory
-		SessionFactory factory = new Configuration().configure("hibernate.cfg.xml").addAnnotatedClass(Student.class)
-				.buildSessionFactory();
+		SessionFactory factory = new Configuration().configure("hibernate.cfg.xml")
+										.addAnnotatedClass(Student.class)
+										.buildSessionFactory();
 
 		System.out.println("heyoooo");
 		
